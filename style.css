@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+
+.discovery {
+    background: url('./assets/background.png');
+    padding: 57px 80.56px 0 82px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 265px;
+    height: 43px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    background-color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header div:hover {
+    background-color: var(--subtitle-color);
+    color: var(--text-color);
+}
+
+header div span {
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+li a:hover {
+    color: var(--subtitle-color);
+}
+
+main {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    max-width: 401px;
+}
+
+.desc span {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-color);
+}
+
+.group-artists {
+    margin-top: 55px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.group-artists img {
+    width: 169px;
+    height: 87px;
+}
+
+.group-artists span {
+    margin-left: 6px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+main h1 {
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    min-width: 596px;
+}
+
+main h1 span {
+    color: var(--color-logo);
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    row-gap: 60px;
+}
+
+.galery img {
+    width: 307px;
+    height: 198px;
+    border: 1px solid #FFF;
+}
+
+.main-2 {
+    background-color: var(--body-background);
+    display: grid;
+    grid-template-columns: 281px auto;
+}
+
+.main-2_numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 133.6px 67px 133.16px 87px;
+}
+
+.data {
+    color: var(--text-color);
+    font-size: 50px;
+    line-height: 60.95px;
+}
+
+.data span {
+    display: block;
+    color: var(--subtitle-color);
+    font-size: 20px;
+    line-height: 24.38px;
+}
+
+.paragraphs {
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 79.6px 138px 79px 68px;
+    font-size: 18px;
+    line-height: 21.94px;
+    border-left: 1px solid var(--subtitle-color);
+}
+
+.paragraph {
+    max-width: 435px;
+}
+
+.paragraph span {
+    color: var(--color-logo);
+    text-decoration: underline;
+}
+
+.paragraph a {
+    display: block;
+    color: var(--text-color);
+    margin-top: 63px;
+}
+
+.main-2_desc img {
+    width: 100%;
+}
+
+.main-3 {
+    background-color: var(--body-background);
+    padding: 150px 87px 0;
+}
+
+.main-3 h1 {
+    font-size: 50px;
+    color: var(--text-color);
+    padding-bottom: 151px;
+}
+
+.main-3 h1 span {
+    color: var(--color-logo);
+}
+
+.main-3_astronautas {
+    display: flex;
+}
+
+.astronauta-coluna1, .astronauta-coluna2 {
+    flex: 1;
+}
+
+.astronauta-coluna2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-left: 1px solid var(--subtitle-color);
+}
+
+.astronauta {
+    max-width: 350px;
+}
+
+.astronauta-image {
+    margin-bottom: 50px;
+}
+
+.astronauta-title {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 44px;
+    font-weight: 500;
+}
+
+.astronauta-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--subtitle-color);
+    margin-bottom: 26px;
+}
+
+.astronauta-name span {
+    font-weight: 400;
+    color: var(--color-logo);
+}
+
+.main-4 {
+    background-color: var(--body-background);
+    padding: 151px 70px 148px 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-4 h1 {
+    font-size: 50px;
+    color: var(--text-color);
+    margin-bottom: 120px;
+}
+
+.main-4 h1 span {
+    color: var(--color-logo);
+}
+
+.artistas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 111px;
+}
+
+.artista {
+    background-color: var(--card-color);
+    display: flex;
+    padding: 25px 17px 25px 32px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.artista.background {
+    background-color: var(--color-logo);
+}
+
+.artista.background .artista-photos {
+    color: var(--text-color);
+}
+
+.artista-desc {
+    margin-left: 40px;
+}
+
+.artista-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.artista-photos {
+    color: var(--color-logo);
+}
+
+.main-4 a {
+    font-size: 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-top: 63px;
+}
+
+.main-4 a:hover {
+    text-decoration: underline;
+}
+
+.main-4 a img {
+    margin-left: 13px;
+}
+
+footer {
+    background-color: var(--card-color);
+}
+
+.footer-logo {
+    padding: 82px 88px 60px 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--subtitle-color);
+}
+
+.footer-logo img {
+    width: 276px;
+    height: 46px;
+}
+
+.arrow {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-logo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow img {
+    width: 22px;
+    height: 22px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 547px auto;
+}
+
+.input-area {
+    padding: 67px 62px 82px 83px;
+    border-right: 1px solid var(--subtitle-color);
+}
+
+.input-area h3 {
+    max-width: 350px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 25px;
+}
+
+.input-area h3 span {
+    color: var(--color-logo);
+}
+
+.input-area input {
+    padding: 20px;
+    border: 0;
+    background-color: var(--color-input);
+    outline: 0;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.input-area button {
+    padding: 20px;
+    font-size: 20px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.links {
+    padding: 74px 187px 54px 122px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.coluna {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 7px;
+}
+
+.coluna a {
+    color: var(--subtitle-color);
+    display: block;
+    text-decoration: none;
+}
+
+.coluna a.white {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.footer-social {
+    padding: 69px 85px 61px 87px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--subtitle-color);
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: var(--subtitle-color);
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.socials img {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
